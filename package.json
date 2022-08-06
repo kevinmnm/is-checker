@@ -1,0 +1,22 @@
+{
+  "name": "is-checker",
+  "version": "1.0.0",
+  "description": "Simple and light weight JavaScript type checker that brings convenience!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinmnm/is-checker.git"
+  },
+  "author": "Kevin J. Song",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinmnm/is-checker/issues"
+  },
+  "homepage": "https://github.com/kevinmnm/is-checker#readme",
+  "devDependencies": {
+    "webpack": "^5.74.0"
+  }
+}
