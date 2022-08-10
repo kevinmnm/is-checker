@@ -1,6 +1,9 @@
 {
    "name": "is-checker",
+
    "version": "1.0.0",
+   "lastestVersion": "1.0.0", 
+   
    "description": "Simple and light weight JavaScript type checker that brings convenience!",
    "main": "index.js",
    "engines": {

@@ -18,38 +18,38 @@ const stringChecker = require('./checker/string.js');
 const symbolChecker = require('./checker/symbol.js');
 const undefinedChecker = require('./checker/undefined.js');
 //## array ##//
-arrayChecker();
+// arrayChecker();
 //## bigint ##//
-bigintChecker();
+// bigintChecker();
 //## blob ##//
-blobChecker();
+// blobChecker();
 //## boolean ##//
-booleanChecker();
+// booleanChecker();
 //## date ##//
-dateChecker();
+// dateChecker();
 //## error ##//
-errorChecker();
+// errorChecker();
 //## file ##//
-fileChecker();
+// fileChecker();
 //## function ##//
-functionChecker();
+// functionChecker();
 //## map ##//
-mapChecker();
+// mapChecker();
 //## null ##//
-nullChecker();
+// nullChecker();
 //## number ##//
-numberChecker();
+// numberChecker();
 //## object ##//
-objectChecker();
+// objectChecker();
 //## promise ##//
-promiseChecker();
+// promiseChecker();
 //## regexp ##//
-regexpChecker();
+// regexpChecker();
 //## set ##//
-setChecker();
+// setChecker();
 //## string ##//
-stringChecker();
+// stringChecker();
 //## symbol ##//
-symbolChecker();
+// symbolChecker();
 //## undefined ##//
-undefinedChecker();
+// undefinedChecker();
