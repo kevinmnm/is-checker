@@ -18,7 +18,7 @@
       "url": "git+https://github.com/kevinmnm/is-checker.git"
    },
    "author": "Kevin J. Song",
-   "license": "ISC",
+   "license": "MIT",
    "bugs": {
       "url": "https://github.com/kevinmnm/is-checker/issues"
    },
