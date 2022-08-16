@@ -1,4 +1,4 @@
-<style>
+<!-- <style>
    .guide-summary {
       font-weight: 600;
       font-size: 1.25em;
@@ -26,7 +26,7 @@
       border: 1px solid grey;
       cursor: text;
    }
-</style>
+</style> -->
 
 # Type of this value is.. check! ✅
 ---
@@ -36,7 +36,9 @@
 
 ## Installation
 #### NPM
-`npm install is-checker`
+```js
+npm install is-checker
+```
 
 #### CDN
 ```js
