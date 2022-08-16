@@ -363,126 +363,126 @@ Undefined.isUndefined(myUndefined) // true.</pre>
 ##### Array
 - isArray()
 ```js
-const myArray = ;
+const myArray = [];
 Array.isArray(myArray) // true.
 ```
 
 ##### Bigint
 - isBigint()
 ```js
-const myBigint = ;
+const myBigint = BigInt(9007199254740991);
 Bigint.isBigint(myBigint) // true.
 ```
 
 ##### Boolean
 - isBoolean()
 ```js
-const myBoolean = ;
+const myBoolean = true;
 Boolean.isBoolean(myBoolean) // true.
 ```
 
 ##### Date
 - isDate()
 ```js
-const myDate = ;
+const myDate = new Date();
 Date.isDate(myDate) // true.
 ```
 
 ##### Blob
 - isBlob()
 ```js
-const myBlob = ;
+const myBlob = new Blob([], {});
 Blob.isBlob(myBlob) // true.
 ```
 
 ##### Error
 - isError()
 ```js
-const myError = ;
+const myError = new Error('');
 Error.isError(myError) // true.
 ```
 
 ##### Function
 - isFunction()
 ```js
-const myFunction = ;
+const myFunction = () => null;
 Function.isFunction(myFunction) // true.
 ```
 
 ##### Map
 - isMap()
 ```js
-const myMap = ;
+const myMap = new Map();
 Map.isMap(myMap) // true.
 ```
 
 ##### File
 - isFile()
 ```js
-const myFile = ;
+const myFile = new File();
 File.isFile(myFile) // true.
 ```
 
 ##### Null
 - isNull()
 ```js
-const myNull = ;
+const myNull = null;
 Null.isNull(myNull) // true.
 ```
 
 ##### Number
 - isNumber()
 ```js
-const myNumber = ;
+const myNumber = 100;
 Number.isNumber(myNumber) // true.
 ```
 
 ##### Promise
 - isPromise()
 ```js
-const myPromise = ;
+const myPromise = new Promise(res => res());
 Promise.isPromise(myPromise) // true.
 ```
 
 ##### Object
 - isObject()
 ```js
-const myObject = ;
+const myObject = {};
 Object.isObject(myObject) // true.
 ```
 
 ##### Set
 - isSet()
 ```js
-const mySet = ;
+const mySet = new Set();
 Set.isSet(mySet) // true.
 ```
 
 ##### Regexp
 - isRegexp()
 ```js
-const myRegexp = ;
+const myRegexp = new RegExp();
 Regexp.isRegexp(myRegexp) // true.
 ```
 
 ##### Symbol
 - isSymbol()
 ```js
-const mySymbol = ;
+const mySymbol = Symbol();
 Symbol.isSymbol(mySymbol) // true.
 ```
 
 ##### String
 - isString()
 ```js
-const myString = ;
+const myString = '';
 String.isString(myString) // true.
 ```
 
 ##### Undefined
 - isUndefined()
 ```js
-const myUndefined = ;
+const myUndefined = undefined;
 Undefined.isUndefined(myUndefined) // true.
 ```
 
