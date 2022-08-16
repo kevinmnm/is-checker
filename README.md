@@ -358,130 +358,130 @@ Undefined.isUndefined(myUndefined) // true.</pre>
       </div>
 </details> -->
 
-#### Array
+##### Array
 - isArray()
 ```js
-	const myArray = ;
-	Array.isArray(myArray) // true.
+const myArray = ;
+Array.isArray(myArray) // true.
 ```
 
-#### Bigint
+##### Bigint
 - isBigint()
 ```js
-	const myBigint = ;
-	Bigint.isBigint(myBigint) // true.
+const myBigint = ;
+Bigint.isBigint(myBigint) // true.
 ```
 
-#### Date
-- isDate()
-```js
-	const myDate = ;
-	Date.isDate(myDate) // true.
-```
-
-#### Blob
-- isBlob()
-```js
-	const myBlob = ;
-	Blob.isBlob(myBlob) // true.
-```
-
-#### Boolean
+##### Boolean
 - isBoolean()
 ```js
-	const myBoolean = ;
-	Boolean.isBoolean(myBoolean) // true.
+const myBoolean = ;
+Boolean.isBoolean(myBoolean) // true.
 ```
 
-#### Function
-- isFunction()
+##### Date
+- isDate()
 ```js
-	const myFunction = ;
-	Function.isFunction(myFunction) // true.
+const myDate = ;
+Date.isDate(myDate) // true.
 ```
 
-#### Error
+##### Blob
+- isBlob()
+```js
+const myBlob = ;
+Blob.isBlob(myBlob) // true.
+```
+
+##### Error
 - isError()
 ```js
-	const myError = ;
-	Error.isError(myError) // true.
+const myError = ;
+Error.isError(myError) // true.
 ```
 
-#### File
-- isFile()
+##### Function
+- isFunction()
 ```js
-	const myFile = ;
-	File.isFile(myFile) // true.
+const myFunction = ;
+Function.isFunction(myFunction) // true.
 ```
 
-#### Map
+##### Map
 - isMap()
 ```js
-	const myMap = ;
-	Map.isMap(myMap) // true.
+const myMap = ;
+Map.isMap(myMap) // true.
 ```
 
-#### Null
+##### File
+- isFile()
+```js
+const myFile = ;
+File.isFile(myFile) // true.
+```
+
+##### Null
 - isNull()
 ```js
-	const myNull = ;
-	Null.isNull(myNull) // true.
+const myNull = ;
+Null.isNull(myNull) // true.
 ```
 
-#### Number
+##### Number
 - isNumber()
 ```js
-	const myNumber = ;
-	Number.isNumber(myNumber) // true.
+const myNumber = ;
+Number.isNumber(myNumber) // true.
 ```
 
-#### Object
-- isObject()
-```js
-	const myObject = ;
-	Object.isObject(myObject) // true.
-```
-
-#### Promise
+##### Promise
 - isPromise()
 ```js
-	const myPromise = ;
-	Promise.isPromise(myPromise) // true.
+const myPromise = ;
+Promise.isPromise(myPromise) // true.
 ```
 
-#### String
-- isString()
+##### Object
+- isObject()
 ```js
-	const myString = ;
-	String.isString(myString) // true.
+const myObject = ;
+Object.isObject(myObject) // true.
 ```
 
-#### Symbol
-- isSymbol()
-```js
-	const mySymbol = ;
-	Symbol.isSymbol(mySymbol) // true.
-```
-
-#### Regexp
-- isRegexp()
-```js
-	const myRegexp = ;
-	Regexp.isRegexp(myRegexp) // true.
-```
-
-#### Set
+##### Set
 - isSet()
 ```js
-	const mySet = ;
-	Set.isSet(mySet) // true.
+const mySet = ;
+Set.isSet(mySet) // true.
 ```
 
-#### Undefined
+##### Regexp
+- isRegexp()
+```js
+const myRegexp = ;
+Regexp.isRegexp(myRegexp) // true.
+```
+
+##### Symbol
+- isSymbol()
+```js
+const mySymbol = ;
+Symbol.isSymbol(mySymbol) // true.
+```
+
+##### String
+- isString()
+```js
+const myString = ;
+String.isString(myString) // true.
+```
+
+##### Undefined
 - isUndefined()
 ```js
-	const myUndefined = ;
-	Undefined.isUndefined(myUndefined) // true.
+const myUndefined = ;
+Undefined.isUndefined(myUndefined) // true.
 ```
 
 ---
