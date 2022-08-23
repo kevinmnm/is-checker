@@ -1,18 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const wrapper = require('../helper/wrapper.js');
-
-//## Set checker ##//
+const Null = function () { };
 module.exports = wrapper({
-   callback: function nullChecker() {
-      window.Null = class Null {
-         constructor() {}
-         static isNull(param) {
-            return (typeof param === 'object' && param === null);
-         }
-      }
-
-      Null.prototype.isNull = function (param) {
-         return param instanceof Null;
-      }
-   },
-   params: null,
+    callback: function nullChecker() {
+        Null.prototype.isNull = function (param) {
+            return typeof param === 'object' && param === null;
+        };
+    }
 });

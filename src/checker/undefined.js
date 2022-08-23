@@ -1,18 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const wrapper = require('../helper/wrapper.js');
-      
-//## Symbol checker ##//
+const Undefined = function () { };
 module.exports = wrapper({
-   callback: function undefinedChecker() {
-      window.Undefined = class Undefined {
-         constructor() {}
-         static isUndefined(param) {
-            return typeof param === 'undefined';
-         }
-      }
-
-      Undefined.prototype.isUndefined = function (param) {
-         return (typeof param === 'undefined');
-      }
-   },
-   params: null,
+    callback: function undefinedChecker() {
+        Undefined.prototype.isUndefined = function (param) {
+            return (typeof param === 'undefined');
+        };
+    }
 });

@@ -1,14 +1,11 @@
-const wrapper = require('../helper/wrapper.js');
-// const isBrowser = !!globalThis?.window;
-// globalThis.Blob = isBrowser ? window.Blob : require('buffer').Blob;
-// globalThis.Blob = window?.Blob || require('buffer')?.Blob;
-
-//## Blob checker ##//
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const wrapper = require('../helper/wrapper');
 module.exports = wrapper({
-   callback: function blobChecker() {
-      window.Blob.prototype.isBlob = function (param) {
-         return typeof param === 'object' && param instanceof Blob;
-      }
-   },
-   params: null,
+    callback: function blobChecker() {
+        Blob.prototype.isBlob = function (param) {
+            return typeof param === 'object' && param instanceof Blob;
+        };
+    },
+    params: null,
 });

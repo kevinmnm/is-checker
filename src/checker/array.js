@@ -1,11 +1,11 @@
-const wrapper = require('../helper/wrapper.js');
-
-//## Array checker ##//
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const wrapper = require('../helper/wrapper');
 module.exports = wrapper({
-   callback: function arrayChecker() {
-      Array.prototype.isEmpty = function (param) {
-         return Array.isArray(param) && param.length === 0;
-      }
-   },
-   params: null,
+    callback: function arrayChecker() {
+        Array.prototype.isEmpty = function (param) {
+            return Array.isArray(param) && param.length === 0;
+        };
+    },
+    params: null,
 });
