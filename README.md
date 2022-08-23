@@ -39,6 +39,9 @@
 ```js
 npm install is-checker
 ```
+```js
+require('is-checker');
+```
 
 #### CDN
 ```js
