@@ -6,10 +6,14 @@ const wrapper = require('../helper/wrapper.js');
 module.exports = wrapper({
    callback: function undefinedChecker() {
       window.Undefined = class Undfeind {
-         constructor() {}
+         constructor() { }
          static isUndefined(param: any) {
             return typeof param === 'undefined';
          }
+      }
+
+      window.Undefined.prototype.isUndefined = function (param: any) {
+         return (typeof param === 'undefined');
       }
    }
 });
