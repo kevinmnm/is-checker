@@ -1,16 +1,19 @@
-export {};
+export { };
 
 const wrapper = require('../helper/wrapper.js');
-const Null: Function = function(){};
 
 //## Set checker ##//
 module.exports = wrapper({
    callback: function nullChecker() {
-      Null.prototype.isNull = function (param: any) {
-         return typeof param === 'object' && param === null;
+      window.Null = class Null {
+         constructor() { }
+         static isNull(param: any) {
+            return (typeof param === 'object' && param === null);
+         }
       }
    }
 });
+
 // module.exports = wrapper({
 //    callback: function nullChecker() {
 //       window.Null = class Null {

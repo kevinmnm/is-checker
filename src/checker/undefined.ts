@@ -1,13 +1,15 @@
 export { };
 
 const wrapper = require('../helper/wrapper.js');
-const Undefined: Function = function(){};
 
 //## Undefined checker ##//
 module.exports = wrapper({
    callback: function undefinedChecker() {
-      Undefined.prototype.isUndefined = function (param: any) {
-         return (typeof param === 'undefined');
+      window.Undefined = class Undfeind {
+         constructor() {}
+         static isUndefined(param: any) {
+            return typeof param === 'undefined';
+         }
       }
    }
 });

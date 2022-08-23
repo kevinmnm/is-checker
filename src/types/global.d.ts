@@ -1,6 +1,7 @@
 export declare global {
    interface Window {
-      Null: Function;
+      Null: any;
+      Undefined: any;
    }
    // interface GlobalThis {
    //    Null: Function;
