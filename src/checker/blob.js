@@ -5,7 +5,7 @@ module.exports = wrapper({
     callback: function blobChecker() {
         const isBrowser = typeof window !== 'undefined' && typeof window.document !== "undefined";
         (!isBrowser) && (globalThis.Blob = require('buffer').Blob);
-        globalThis.Blob.prototype.isBlob = function (param) {
+        globalThis.Blob.isBlob = function (param) {
             return typeof param === 'object' && param instanceof Blob;
         };
     },

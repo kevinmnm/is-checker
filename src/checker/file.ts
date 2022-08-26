@@ -11,16 +11,18 @@ declare module globalThis {
 //## File checker ##//
 module.exports = wrapper({
    callback: function fileChecker() {
-      if (!globalThis.File) {
+      const isBrowser = typeof window !== 'undefined' && typeof window.document !== "undefined";
+
+      if (!isBrowser) {
          globalThis.File = class File {
             constructor() {}
-            static isFile(param: any) {
-               return typeof param === 'object' && param instanceof File;
-            }
+            // static isFile(param: any) {
+               // return typeof param === 'object' && param instanceof File;
+            // }
          }
-         return;
+         // return;
       }
-      globalThis.File.prototype.isFile = function (param: any) {
+      globalThis.File.isFile = function (param: any) {
          return typeof param === 'object' && param instanceof File;
       }
    }
