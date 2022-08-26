@@ -5,8 +5,8 @@
    "description": "Simple and light-weight JavaScript type checker that brings convenience!",
    "main": "index.js",
    "engines": {
-      "node": "16.16.0",
-      "npm": "8.11.0"
+      "node": "~16.16.0",
+      "npm": "~8.11.0"
    },
    "scripts": {
       "build": "set PROJECT_NAME=is-checker&& node ../../webpack/confirm.js&& webpack --config webpack.config.js",
@@ -16,7 +16,7 @@
       "type": "git",
       "url": "git+https://github.com/kevinmnm/is-checker.git"
    },
-   "author": "Kevin J. Song",
+   "author": "Kevin J. Song <kevinmnm2010@gmail.com> (https://kevsong.com)",
    "license": "MIT",
    "bugs": {
       "url": "https://github.com/kevinmnm/is-checker/issues"
