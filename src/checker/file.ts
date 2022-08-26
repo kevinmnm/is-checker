@@ -4,9 +4,22 @@ const wrapper = require('../helper/wrapper.js');
 // const isNode = !!process?.versions?.node;
 // globalThis.File = isNode ? require('buffer').File : window.File;
 
+declare module globalThis {
+   var File: any;
+}
+
 //## File checker ##//
 module.exports = wrapper({
    callback: function fileChecker() {
+      if (!globalThis.File) {
+         globalThis.File = class File {
+            constructor() {}
+            static isFile(param: any) {
+               return typeof param === 'object' && param instanceof File;
+            }
+         }
+         return;
+      }
       globalThis.File.prototype.isFile = function (param: any) {
          return typeof param === 'object' && param instanceof File;
       }

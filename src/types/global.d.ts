@@ -1,12 +1,12 @@
-
 export declare global {
    interface Window {
       Null: any;
       Undefined: any;
    }
    declare module globalThis {
-      var Undefined: object;
-      var Null: object;
+      var Undefined: any;
+      var Null: any;
+      var File: any;
    }
    interface Array { isEmpty: Function; }
    interface Boolean { isBoolean: Function; }
