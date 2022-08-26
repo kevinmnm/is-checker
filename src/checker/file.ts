@@ -7,7 +7,7 @@ const wrapper = require('../helper/wrapper.js');
 //## File checker ##//
 module.exports = wrapper({
    callback: function fileChecker() {
-      File.prototype.isFile = function (param: any) {
+      globalThis.File.prototype.isFile = function (param: any) {
          return typeof param === 'object' && param instanceof File;
       }
    }

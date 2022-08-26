@@ -5,16 +5,17 @@ const wrapper = require('../helper/wrapper.js');
 //## Undefined checker ##//
 module.exports = wrapper({
    callback: function undefinedChecker() {
-      window.Undefined = class Undfeind {
+      
+      globalThis.Undefined = class Undefined {
          constructor() { }
          static isUndefined(param: any) {
             return typeof param === 'undefined';
          }
       }
 
-      window.Undefined.prototype.isUndefined = function (param: any) {
-         return (typeof param === 'undefined');
-      }
+      // globalThis.Undefined.prototype.isUndefined = function (param: any) {
+      //    return (typeof param === 'undefined');
+      // }
    }
 });
 // module.exports = wrapper({

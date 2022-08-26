@@ -28,19 +28,29 @@
    }
 </style> -->
 
-# Type of this value is.. check! ✅
+<h5 style="color:white;background:#f44336;text-align:center;border-radius:5%">This package is still under development phase!</h5>
+
+# Type of this value is.. checker! ✅
 ---
 
-> **Simple and light-weight JavaScript type checker that mimics existing type checking methods!**
+> **Simple and light-weight JavaScript type checker that mimics existing type checking methods.**
 ---
+
+## 📋Table of Contents 📋
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Import](#import)
+- [Guide](#guide)
+- [About](#about)
+
+---
+
+<div id="installation"></div>
 
 ## Installation
 #### NPM
 ```js
 npm install is-checker
-```
-```js
-require('is-checker');
 ```
 
 #### CDN
@@ -53,12 +63,24 @@ require('is-checker');
 // For specific version.
 <script src="https://kevsong.com/cdn/is-checker@1.0.0"></script>
 ```
+
 ---
 
-## Contents
-- [Introduction](#introduction)
-- [Guide](#guide)
-- [About](#about)
+<div id="import"></div>
+
+## Import
+
+#### ESM
+```js
+import * as isChecker from "is-checker";
+```
+
+#### CJS
+```js
+require('is-checker');
+```
+
+That's it. No further action needed!
 
 ---
 
@@ -66,7 +88,9 @@ require('is-checker');
 
 ## Introduction
 
-Have you tried to validate the type of a variable and wonder why some native objects provide *'is'* type checking method but some don't? For example: 
+<b>Have you tried to validate the type of a variable and wonder why some native objects provide *'is'* type checking method but some don't?</b>
+
+For example: 
 
 ```js
 const array = [1, 2, 3];

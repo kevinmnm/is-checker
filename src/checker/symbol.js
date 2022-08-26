@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const wrapper = require('../helper/wrapper.js');
 module.exports = wrapper({
     callback: function symbolChecker() {
-        Symbol.prototype.isSymbol = function (param) {
+        globalThis.Symbol.prototype.isSymbol = function (param) {
             return (typeof param === 'symbol');
         };
     },

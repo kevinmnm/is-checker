@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const wrapper = require('../helper/wrapper.js');
 module.exports = wrapper({
     callback: function undefinedChecker() {
-        window.Undefined = class Undfeind {
+        globalThis.Undefined = class Undefined {
             constructor() { }
             static isUndefined(param) {
                 return typeof param === 'undefined';

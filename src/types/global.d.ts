@@ -1,11 +1,13 @@
+
 export declare global {
    interface Window {
       Null: any;
       Undefined: any;
    }
-   // interface GlobalThis {
-   //    Null: Function;
-   // }
+   declare module globalThis {
+      var Undefined: object;
+      var Null: object;
+   }
    interface Array { isEmpty: Function; }
    interface Boolean { isBoolean: Function; }
    interface Blob { isBlob: Function; }
@@ -17,8 +19,8 @@ export declare global {
       isFunction: Function;
       isPromise: Function;
    }
-   interface Number { 
-      isNumber: Function; 
+   interface Number {
+      isNumber: Function;
       isPositive: Function;
       isZero: Function;
       isNegative: Function;
@@ -27,7 +29,7 @@ export declare global {
    interface Null extends Null { isNull: Function; }
    interface Object { isObject: Function; }
    interface Promise { isPromise: Function; }
-   interface Regexp { isRegexp: Function; }
+   interface RegExp { isRegExp: Function; }
    interface Symbol { isSymbol: Function; }
    interface String { isString: Function; }
    interface Set { isSet: Function; }

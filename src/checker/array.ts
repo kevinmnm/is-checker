@@ -4,7 +4,7 @@ const wrapper = require('../helper/wrapper');
 //## Array checker ##//
 module.exports = wrapper({
    callback: function arrayChecker() {
-      Array.prototype.isEmpty = function (param: any) {
+      globalThis.Array.prototype.isEmpty = function (param: any) {
          return Array.isArray(param) && param.length === 0;
       }
    },

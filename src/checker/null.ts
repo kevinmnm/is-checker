@@ -5,7 +5,7 @@ const wrapper = require('../helper/wrapper.js');
 //## Set checker ##//
 module.exports = wrapper({
    callback: function nullChecker() {
-      window.Null = class Null {
+      globalThis.Null = class Null {
          constructor() { }
          static isNull(param: any) {
             return (typeof param === 'object' && param === null);

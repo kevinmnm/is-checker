@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const wrapper = require('../helper/wrapper.js');
 module.exports = wrapper({
     callback: function setChecker() {
-        Set.prototype.isSet = function (param) {
+        globalThis.Set.prototype.isSet = function (param) {
             return param instanceof Set;
         };
     },
