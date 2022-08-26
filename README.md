@@ -28,12 +28,12 @@
    }
 </style> -->
 
-<h5 style="color:white;background:#f44336;text-align:center;border-radius:5%">This package is still under development phase!</h5>
+<!-- <h5 style="color:white;background:#f44336;text-align:center;border-radius:5%">This package is still under development phase!</h5> -->
 
 # Type of this value is.. checker! ✅
 ---
 
-> **Simple and light-weight JavaScript type checker that mimics existing type checking methods.**
+> **Simple and light-weight JavaScript type checker that mimics existing type checking methods. Supports both browser and Node.js environment!**
 ---
 
 ## 📋Table of Contents 📋
@@ -88,7 +88,7 @@ That's it. No further action needed!
 
 ## Introduction
 
-<b>Have you tried to validate the type of a variable and wonder why some native objects provide *'is'* type checking method but some don't?</b>
+<b>Have you ever tried to validate the type of a variable and wonder why some native objects provide *'is'* type checking method but some don't?</b>
 
 For example: 
 
@@ -107,7 +107,7 @@ const string = 'is-checker';
 String.isString(string); // How convenient!
 ```
 
-The purpose is to create something easy to remember without having to look back at package documentation. Since we already have some default methods to check certain types, why not extend them to every types?
+The purpose is to create something easy to remember without having to look back at library documentation. Since we already have some default methods to check certain types, why not extend them for every types?
 
 ---
 
@@ -115,8 +115,7 @@ The purpose is to create something easy to remember without having to look back 
 
 ## Guide
 
-Every types in JavaScript will have same *'is'* checker method attached to it. If type doesn't have a class by default, it'll create one. Some types will have additional methods created to it.
-
+Every types in JavaScript will have same *'is'* checker method attached to it. If type doesn't have a class by default, it'll create one.
 
 <!-- <details>
    <summary class="guide-summary">Array</summary>
