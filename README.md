@@ -31,9 +31,13 @@
 <!-- <h5 style="color:white;background:#f44336;text-align:center;border-radius:5%">This package is still under development phase!</h5> -->
 
 # Type of this value is.. checker! ✅
+
+[![npm version](https://badge.fury.io/js/is-checker.svg)](https://badge.fury.io/js/is-checker)
+![Known Vulnerabilities](https://snyk.io/test/github/kevinmnm/is-checker/badge.svg)
+
 ---
 
-> **Simple and light-weight JavaScript type checker that mimics existing type checking methods. Supports both browser and Node.js environment!**
+> **Simple and light-weight JavaScript type checker that mimics existing type checking methods. Supports both _browser_ and _Node.js_ environment!**
 ---
 
 ## 📋Table of Contents 📋
