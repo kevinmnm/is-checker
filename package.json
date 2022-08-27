@@ -9,6 +9,7 @@
       "npm": "~8.11.0"
    },
    "scripts": {
+      "test": "",
       "build": "set PROJECT_NAME=is-checker&& node ../../webpack/confirm.js&& webpack --config webpack.config.js",
       "dev": "tsc --watch"
    },
